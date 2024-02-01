@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dname</param-name>
+		<param-value>lib</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dpass</param-name>
+		<param-value>lib</param-value>
+	</context-param>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <servlet-class>AddCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBookServlet</servlet-name>
+    <servlet-class>AddBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBooksServlet</servlet-name>
+    <servlet-class>GetBooksServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyBookServlet</servlet-name>
+    <servlet-class>ModifyBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteBookServlet</servlet-name>
+    <servlet-class>DeleteBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyMemberServlet</servlet-name>
+    <servlet-class>ModifyMemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMemberServlet</servlet-name>
+    <servlet-class>DeleteMemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IssueBookServlet</servlet-name>
+    <servlet-class>IssueBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CalculateFine</servlet-name>
+    <servlet-class>CalculateFine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturnBookServlet</servlet-name>
+    <servlet-class>ReturnBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RenewBookServlet</servlet-name>
+    <servlet-class>RenewBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdvanceBookingServlet</servlet-name>
+    <servlet-class>AdvanceBookingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMailsServlet</servlet-name>
+    <servlet-class>DeleteMailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReportsServlet</servlet-name>
+    <servlet-class>ReportsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <servlet-class>ChangePassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddJournalServlet</servlet-name>
+    <servlet-class>AddJournalServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBServlet</servlet-name>
+    <servlet-class>AddBServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyLibrarianServlet</servlet-name>
+    <servlet-class>ModifyLibrarianServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteLibrarianServlet</servlet-name>
+    <servlet-class>DeleteLibrarianServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <url-pattern>/addcat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBookServlet</servlet-name>
+    <url-pattern>/addbook</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>AddBServlet</servlet-name>
+    <url-pattern>/addbook1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBooksServlet</servlet-name>
+    <url-pattern>/getbooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyBookServlet</servlet-name>
+    <url-pattern>/ModifyBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBookServlet</servlet-name>
+    <url-pattern>/DeleteBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyMemberServlet</servlet-name>
+    <url-pattern>/ModifyMember</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMemberServlet</servlet-name>
+    <url-pattern>/DeleteMember</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IssueBookServlet</servlet-name>
+    <url-pattern>/issuebook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CalculateFine</servlet-name>
+    <url-pattern>/calculatefine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReturnBookServlet</servlet-name>
+    <url-pattern>/returnbook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RenewBookServlet</servlet-name>
+    <url-pattern>/renewbook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvanceBookingServlet</servlet-name>
+    <url-pattern>/advancebook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMailsServlet</servlet-name>
+    <url-pattern>/DeleteMails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReportsServlet</servlet-name>
+    <url-pattern>/report</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <url-pattern>/changepass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddJournalServlet</servlet-name>
+    <url-pattern>/addJournal</url-pattern>
+  </servlet-mapping>
+  <!-- Supported Export Modes of ExportController  -->
+	<servlet>
+		<servlet-name>ExportPDF</servlet-name>
+		<servlet-class>com.dts.core.export.ExportPDF</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ExportTXT</servlet-name>
+		<servlet-class>com.dts.core.export.ExportTXT</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ExportXLS</servlet-name>
+		<servlet-class>com.dts.core.export.ExportXLS</servlet-class>
+	</servlet>
+  
+
+  
+
+ 
+ 
+	
+	<servlet-mapping>
+		<servlet-name>ExportPDF</servlet-name>
+		<url-pattern>/ExportPDF</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExportTXT</servlet-name>
+		<url-pattern>/ExportTXT</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExportXLS</servlet-name>
+		<url-pattern>/ExportXLS</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBServlet</servlet-name>
+    <url-pattern>/AddBServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyLibrarianServlet</servlet-name>
+    <url-pattern>/ModifyLibrarian</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteLibrarianServlet</servlet-name>
+    <url-pattern>/DeleteLibrarian</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+
+
+
+
+
+</web-app>
